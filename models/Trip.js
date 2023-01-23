@@ -1,3 +1,4 @@
+
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
@@ -46,3 +47,4 @@ Trip.init(
 );
 
 module.exports = Trip;
+
